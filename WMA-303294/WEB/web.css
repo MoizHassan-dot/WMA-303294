@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "myFont";
+  src: url(Bohemia.ttf);
+}
+.main {
+  width: 1200px;
+  height: 1200px;
+  color: rgb(32, 32, 32);
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  border-top: 5px solid rgb(102, 102, 102);
+}
+.header {
+  width: 1200px;
+}
+.header_left {
+  width: 600px;
+  display: inline-block;
+  text-align: left;
+  font-family: "myFont";
+}
+.header_right {
+  width: 400px;
+  text-align: right;
+  display: inline-block;
+  height: auto;
+  font-family: "myFont";
+}
+.button {
+  font-family: sans-serif;
+  margin-bottom: 1px;
+  padding-right: 28px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: bold;
+  font-family: "myFont";
+  background-color: rgb(102, 102, 102);
+  border: none;
+  border-radius: 3px;
+  color: rgb(245, 245, 245);
+}
+
+#number {
+  padding: 0px;
+  font-weight: bold;
+  margin: 0px;
+  color: rgb(32, 32, 32);
+}
+h1 {
+  margin: 0px;
+  font-size: 40px;
+  font-weight: lighter;
+  padding-bottom: 0px;
+}
+#rank {
+  padding: 0xp;
+  font-style: italic;
+  font-size: 24px;
+  margin: 0px;
+}
+
+#link {
+  text-decoration: none;
+  color: rgb(152, 78, 80);
+  font-weight: 600;
+}
+
+.profile {
+  width: 250px;
+  text-align: left;
+  float: left;
+  margin-left: 100px;
+  background-color: aquamarine;
+}
+.profile_para {
+  margin: 0px 0px 10px 0px;
+  width: 750px;
+  text-align: left;
+  float: left;
+  
+  
+}
+
+#title {
+  padding-top: 0px;
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 22px;
+}
+th{
+  font-weight: 200;
+  text-align: left;
+
+  font-size: 21px;
+}
+
+.skill_set{
+  width: 750px;
+  text-align: left;
+  float: left;
+}
+.languages{
+  text-align: center;
+  float: none;
+}
